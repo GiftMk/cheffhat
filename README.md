@@ -35,7 +35,7 @@ flowchart LR
    the frame via an `ImageInserter`.
 5. MediaConvert uploads the video to our output bucket, client is notified and downloads finished meal.
 
-## Loudnorm, briefly
+## Dual-pass Normalization
 
 1. We run `loudnorm` once with `print_format=json` to get the input audio's
   integrated loudness, true peak, loudness range and threshold.
